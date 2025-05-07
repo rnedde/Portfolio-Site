@@ -1,9 +1,7 @@
 :root {
-  --primary-color: #3498db;
+  --text-color: #3498db;
   --accent-color: #baa2fd;
-  --bg-color: #ffffff;
   --content-color: #e5fefd;
-  --text-color: #5089fd;
   --dark-accent: #003d9e;
 
 }
@@ -17,37 +15,58 @@ body {
   padding: 2rem;
 }
 
+.contents{
+  text-align:center;
+}
+/* highlight color */
 ::selection {
-  background-color: var(--accent-color);
-  color: var(--content-color); /* Optional: text color when highlighted */
+  background-color: var(--text-color);
+  color: var(--content-color); 
 }
 
 main, header {
-  background-color: var(--content-color);
+  background: radial-gradient(ellipse, #e5fefd 0% ,#d8deff 100%);
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
   /* border: 2px solid var(--dark-accent); */
-  box-shadow: 0px 0px 15px rgba(0, 61, 158, 0.3);
+  /* box-shadow: 0px 0px 15px rgba(0, 61, 158, 0.3); */
+}
+header{
+  border-radius: 18% 82% 56% 44% / 63% 43% 57% 37% ;
+}
+main{
+  border-radius: 11% 89% 13% 87% / 88% 6% 94% 12%;
+  padding-bottom:7rem;
 }
 
 nav{
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
+  width:100%;
 }
-
 a {
-  margin-right: 1rem;
   text-decoration: none;
   color: var(--accent-color);
+
+}
+a:hover{
+  color:var(--text-color);
+  text-decoration:underline;
 }
 
-a:hover {
+.nav-link:hover, .nav-link.active {
   text-decoration: underline;
+  background: var(--text-color);
+  color: var(--content-color);
+}
+.nav-link{
+  padding-top:0.7rem;
+  padding-bottom:1rem;
+  padding-right:1rem;
+  padding-left:1rem;
+  border-radius: 74% 26% 75% 25% / 28% 48% 52% 72% ;
 }
 
-a.active {
-  color: var(--text-color);
-}
 
 /* header text */
 h3{
@@ -55,20 +74,27 @@ h3{
   text-align: center;
 }
 
-
-
-
-/* page header */
 h4{
   text-align:center;
 }
 
-.portfolio-img {
-  border: 5px solid red !important;
+.center-contents{
+  display:flex;
+  justify-content: center;
 }
-
-img.portfolio-img {
-  border: 5px solid green !important;
+.work-image {
+  width:70%;
+  max-height:50vh;
+  position: relative;
+  overflow: hidden;
+  object-fit:contain;
+  object-position: top;
+}
+.description{
+  width:65%;
+}
+.short-description{
+  color:var(--accent-color);
 }
 
 footer{

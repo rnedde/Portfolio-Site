@@ -1,16 +1,14 @@
 ---
-title: Portfolio
+title: RECENT WORKS
 layout: layout.njk
 ---
 
-#### Recent Works
-
-[Bendi](/works/bendi/)  
-[Carmen Carcass](/works/carmencarcass/)  
-[Knitworks](/works/knitworks/)  
-[Linnaeus's Garden](/works/linnaeusgarden/)  
-[Murmurine](/works/murmurine/)  
-[Parallax](/works/parallax/)  
-[Seeing Time](/works/seeingtime/)  
-[Soft Send](/works/softsend/)  
-[Two Ninety](/works/twoninety/)  
+[Bendi](/works/bendi/)<br>
+[Carmen Carcass](/works/carmencarcass/)<br>
+[Knitworks](/works/knitworks/)<br>
+[Linnaeus's Garden](/works/linnaeusgarden/)<br>
+[Murmurine](/works/murmurine/)<br>
+[Parallax](/works/parallax/)<br>
+[Seeing Time](/works/seeingtime/)<br>
+[Soft Send](/works/softsend/)<br>
+[$2.90](/works/twoninety/)
