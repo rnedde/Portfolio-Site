@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #3498db;
+  --accent-color: #baa2fd;
+  --bg-color: #ffffff;
+  --content-color: #e5fefd;
+  --text-color: #5089fd;
+  --dark-accent: #003d9e;
+
+}
+
+/* everything */
+body {
+  font-family: input-mono, monospace;
+  background: radial-gradient(ellipse,#baa2fd 0%, #e5fefd 100%);
+  color: var(--text-color);
+  margin: 0;
+  padding: 2rem;
+}
+
+::selection {
+  background-color: var(--accent-color);
+  color: var(--content-color); /* Optional: text color when highlighted */
+}
+
+main, header {
+  background-color: var(--content-color);
+  margin: 1rem;
+  padding: 1rem;
+  /* border: 2px solid var(--dark-accent); */
+  box-shadow: 0px 0px 15px rgba(0, 61, 158, 0.3);
+}
+
+nav{
+  display:flex;
+  justify-content: center;
+}
+
+/* header text */
+h3{
+  margin:0;
+  text-align: center;
+}
+/* page header */
+h4{
+  text-align:center;
+}
+
+a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  color: var(--text-color);
+}
+
+footer{
+  display:flex;
+  justify-content: center;
+}
