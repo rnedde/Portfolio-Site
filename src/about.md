@@ -1,6 +1,15 @@
 ---
 title: About
-layout: layout.njk
+layout: about-layout.njk
 ---
-
-  <p>This is some content about me...</p>
+<div class="about-page">
+        <div class="about-text">
+        <p>Reverie Nedde (she/her) is an artist, creative technologist, and digital craftsperson whose work explores the tactile, the digital, and the spaces in between. </p>
+        <p>She is particularly interested in how physical presence shapes a viewer's perception, using tactile interactivity to blur the line between viewer and artwork. Her practice is rooted in themes of networks and connectivity, both natural and human-made, and draws on the philosophy and history of combining fiber arts with technology.</p>
+        <p>Reverie works with yarn, fabric, and electronics to create interactive installations that invite playful, embodied experiences. She draws historical and perceptual connections between textile arts and computer programming, inspiring users to see the common threads between these seemingly disparate mediums.</p>
+        <p>She earned a BFA from The Ohio State University, where she focused on 2D and 3D animation and new media robotics. At the same time, she was a National Champion Division I varsity artistic swimmer, dedicating over 20 hours a week to the sport. Inspired by this connection to music and performance, her early projects often incorporated synchronized sound visualizations and choreographed movement. More recently, her work has evolved toward understanding how we relate to the world around us through systems of connection and interaction.</p>
+        <p>Reverie is currently based in New York City and pursuing a Master of Arts in Interactive Media at NYU's Tisch School of the Arts.</p>
+        <p>She is available for freelance work and always open to new collaborations. Feel free to reach out or simply say hello.</p>
+        </div>
+        <img src="/images/reverie.jpg" class="abt-img"alt="reverie image"/>
+    </div>
