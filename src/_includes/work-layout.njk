@@ -1,10 +1,10 @@
 {% extends "layout.njk" %}
 {% block content %}
-<div class="center-contents">
-    <div class="description">
-    <p class="short-description">{{ description }}</p>
+    <div class="center-contents">
+        <div class="description">
+            <p class="short-description">{{ description }}</p>
+        </div>
     </div>
-</div>
     <div class="work-detail">
 
         <!-- You can add any work-specific content here -->
@@ -13,28 +13,28 @@
         </div>
         <div class="center-contents">
             <div class ="description ">
-                
+
                 {{content | safe}}
-                {% if blog_link %}
-                    <p>
-                        <a href="{{ blog_link }}" target="_blank">READ THE BLOG POST</a>
-                    </p>
-                {% endif %}
+                <div class="project-links">
+                    {% if blog_link %}
+                        <p>
+                            <a href="{{ blog_link }}" target="_blank">READ THE BLOG POST</a>
+                        </p>
+                    {% endif %}
 
-                {% if work_link %}
-                    <p>
-                        <a href="{{ work_link }}" target="_blank">VIEW PROJECT</a>
-                    </p>
-                {% endif %}
-                {% if github_link %}
-                    <p>
-                        <a href="{{ work_link }}" target="_blank">SOURCE CODE</a>
-                    </p>
-                {% endif %}
-
+                    {% if work_link %}
+                        <p>
+                            <a href="{{ work_link }}" target="_blank">VIEW PROJECT</a>
+                        </p>
+                    {% endif %}
+                    {% if github_link %}
+                        <p>
+                            <a href="{{ github_link }}" target="_blank">SOURCE CODE</a>
+                        </p>
+                    {% endif %}
+                </div>
             </div>
         </div>
-
 
     </p>
 </div>

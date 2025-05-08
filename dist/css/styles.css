@@ -3,7 +3,7 @@ html {
   font-size: clamp(14px, 1vw + 0.5rem, 18px);
 }
 :root {
-  --text-color: #3498db;
+  --text-color: #1e6798;
   --accent-color: #755cb7;
   --content-color: #e5fefd;
   --dark-accent: #003d9e;
@@ -153,6 +153,9 @@ footer {
 }
 .description {
   width: 65%;
+}
+.project-links{
+  text-align:center;
 }
 
 /* Section: About Page styles
