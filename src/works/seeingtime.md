@@ -3,7 +3,7 @@ title: Seeing Time
 layout: work-layout.njk
 description: "Contribute to or explore a gallery of time-space synesthesia visualizations."
 image: "/images/seeingtime.png"
-blog_link: "https://reverienedde.notion.site/Time-Space-Synesthesia-Beginnings-143a77ce693b8027a932eecbae74d60a?pvs=4"
+blog_link: "https://reverienedde.notion.site/seeing-time?pvs=4"
 work_link: "https://seeing-time.com"
 github_link: "https://github.com/rnedde/seeing-time"
 

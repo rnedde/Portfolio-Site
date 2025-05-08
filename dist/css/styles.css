@@ -12,7 +12,7 @@ html {
 body {
   font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
   font-size:1.2rem;
-  background: radial-gradient(circle, #baa2fd 0%, #e5fefd 100%);
+  background: radial-gradient(ellipse, #baa2fd 0%, #e5fefd 100%);
   color: var(--text-color);
   margin: 0;
 }
@@ -25,19 +25,18 @@ body {
 /* Section: Template Styles
    ---------------------- */
 
-
 /* backgrounds and border radius */
-main,
-header, footer, .contact{
+
+main, header, .contact, footer {
   background: radial-gradient(ellipse, #e5fefd 0%, #d0d7ff 100%);
   margin: 1rem;
   padding: 3rem;
 }
 header {
-  border-radius: 18% 82% 56% 44% / 63% 43% 57% 37%;
+  border-radius: 17% 83% 23% 77% / 71% 26% 74% 29%;
 }
 main {
-  border-radius: 11% 89% 13% 87% / 88% 6% 94% 12%;
+  border-radius: 88% 12% 71% 29% / 23% 53% 47% 77% ;
   padding-bottom: 7rem;
 }
 /* header text */
@@ -68,40 +67,67 @@ a:hover {
   text-decoration: underline;
 }
 
-/* navigation styles */
-nav {
-  display: flex;
+/* nav styles */
+.navbar{
+  display:flex;
   justify-content: space-around;
-  width: 100%;
-}
-.nav-link:hover,
-.nav-link.active {
-  text-decoration: underline;
-  background: radial-gradient(ellipse, var(--text-color) 0%, var(--accent-color) 100% );
-  color: var(--content-color);
-}
-.nav-link.active {
-  text-decoration: none;
-
 }
 .nav-link {
-  padding-top: 0.7rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  color: var(--text-color);
+  overflow: hidden;
+  transition: color 0.5s ease;
+  z-index: 1;
+}
+/* growing background shape */
+.nav-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(ellipse, var(--accent-color) 0%, var(--content-color) 50%);
+  transform: translate(-50%, -50%);
+  transition: width 0.5s ease, height 0.5s ease;
+  z-index: -1;
+}
+.works-link::before, .works-link{
   border-radius: 74% 26% 75% 25% / 28% 48% 52% 72%;
 }
+.about-link::before, .about-link{
+  border-radius: 45% 55% 71% 29% / 46% 74% 26% 54% ;
+}
+
+/* on hover or active state */
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 200%;
+  height: 200%;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--content-color);
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  text-decoration: none;
+}
+
+/* contact styles */
 .contact{
   border-radius:59% 41% 70% 30% / 71% 66% 34% 29%;
 }
-
 .contact-links {
   padding-left: 5rem;
   padding-right: 5rem;
   padding-bottom: 3rem;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /* optional, in case items need to wrap before breakpoint */
 }
 @media (max-width: 1000px) {
   .contact-links {
@@ -110,11 +136,11 @@ nav {
   }
 }
 
-
+/* footer styles */
 footer {
   border-radius: 80% 20% 77% 23% / 23% 49% 51% 77%;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.3rem;
   padding: 3rem;
   padding-left: 10rem;
 
@@ -172,3 +198,10 @@ footer {
   object-fit:contain;
 
 }
+/* .test{
+  border-radius: 80% 20% 77% 23% / 23% 49% 51% 77%;
+  background: radial-gradient(ellipse, #e5fefd 0%, #d0d7ff 100%);
+  height:20vh;
+  width:70%;
+  margin-bottom:1rem;
+} */

@@ -3,7 +3,7 @@ title: Bendi
 layout: work-layout.njk
 description: "An interactive, illustrated, non-binary, web-based mobility coach."
 image: "/images/bendi.png"
-blog_link: "https://reverienedde.notion.site/Bendi-10ca77ce693b8032a265e519fff1c13a?pvs=4"
+blog_link: "https://reverienedde.notion.site/bendi?pvs=4"
 work_link: "https://rnedde.github.io/bendi"
 github_link: "https://github.com/rnedde/bendi"
 
