@@ -1,7 +1,7 @@
+
 html {
   font-size: clamp(14px, 1vw + 0.5rem, 18px);
 }
-
 :root {
   --text-color: #3498db;
   --accent-color: #baa2fd;
@@ -9,95 +9,82 @@ html {
   --dark-accent: #003d9e;
 
 }
-
-/* everything */
 body {
-  /* font-family: input-mono, monospace; */
+  font-size:1.2rem;
   font-family: "degular-mono", sans-serif;
   font-weight: 400;
   font-style: normal;
-  /* font-family: "swiss-721-bt", sans-serif;
-  font-weight: 250;
-  font-style: normal; */
-
-  background: radial-gradient(ellipse, #baa2fd 0%, #e5fefd 100%);
+  background: radial-gradient(circle, #baa2fd 0%, #e5fefd 100%);
   color: var(--text-color);
   margin: 0;
 }
-
-.about-page{
-  display:flex;
-  justify-content:space-around;
-  align-items:flex-start;
-}
-
-.about-text{
-  width:40%;
-  padding-left:4rem;
-}
-.abt-img{
-  width:30%;
-  object-fit:contain;
-  margin-top:5rem;
-}
-
-.contents {
-  text-align: center;
-}
-
 /* highlight color */
 ::selection {
   background-color: var(--text-color);
   color: var(--content-color);
 }
 
+/* Section: Template Styles
+   ---------------------- */
+
+
+/* backgrounds and border radius */
 main,
-header {
-  background: radial-gradient(ellipse, #e5fefd 0%, #d8deff 100%);
+header, footer, .contact{
+  background: radial-gradient(ellipse, #e5fefd 0%, #d0d7ff 100%);
   margin: 1rem;
   padding: 3rem;
-  /* border: 2px solid var(--dark-accent); */
-  /* box-shadow: 0px 0px 15px rgba(0, 61, 158, 0.3); */
 }
-
 header {
   border-radius: 18% 82% 56% 44% / 63% 43% 57% 37%;
 }
-
 main {
   border-radius: 11% 89% 13% 87% / 88% 6% 94% 12%;
   padding-bottom: 7rem;
 }
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
+/* header text */
+h1 {
+  font-weight:lighter;
+  margin: 1rem;
+  text-align: center;
 }
 
+h4 {
+  font-weight:bolder;
+  text-align: center;
+}
+
+.center-contents {
+  display: flex;
+  justify-content: center;
+}
+
+/* link styles */
 a {
   text-decoration: none;
   color: var(--accent-color);
 }
-
 a:hover {
   color: var(--text-color);
   text-decoration: underline;
 }
 
+/* navigation styles */
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 .nav-link:hover,
 .nav-link.active {
   text-decoration: underline;
   background: var(--text-color);
   color: var(--content-color);
 }
-
 .nav-link.active {
   text-decoration: none;
 
 }
-
-
 .nav-link {
   padding-top: 0.7rem;
   padding-bottom: 1rem;
@@ -105,28 +92,38 @@ a:hover {
   padding-left: 1rem;
   border-radius: 74% 26% 75% 25% / 28% 48% 52% 72%;
 }
-
-
-/* header text */
-h1 {
-  /* font-family: "swiss-721-bt-rounded", sans-serif;
-  font-weight: 900;
-  font-style: normal; */
-
-  font-family: "monarcha", serif;
-  font-weight: 300;
-  font-style: normal;
-  margin: 0;
-  text-align: center;
+.contact{
+  border-radius: 74% 26% 75% 25% / 28% 48% 52% 72%;
+}
+.contact-links{
+  padding-left:5rem;
+  padding-right:5rem;
+  padding-bottom:3rem;
+  display:flex;
+  justify-content: space-around;
 }
 
-h4 {
-  text-align: center;
+footer {
+  border-radius: 80% 20% 77% 23% / 23% 49% 51% 77%;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 3rem;
+  padding-left: 7rem;
+
 }
 
-.center-contents {
+
+/* Section: Portfolio Pages styles
+   ---------------------- */
+
+.portfolio-list {
   display: flex;
-  justify-content: center;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.number, .title, .date {
+  display: inline-block;
 }
 
 .work-image {
@@ -137,23 +134,26 @@ h4 {
   object-fit: contain;
   object-position: top;
 }
-
-
+.short-description {
+  color: var(--accent-color);
+}
 .description {
   width: 65%;
 }
 
-.short-description {
-  color: var(--accent-color);
+/* Section: About Page styles
+   ---------------------- */
+.about-page{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
 }
-
-footer {
-  background: radial-gradient(ellipse, #e5fefd 0%, #d8deff 100%);
-  margin: 3rem;
-  border-radius: 80% 20% 77% 23% / 23% 49% 51% 77%;
-  font-size: 0.7rem;
-  line-height: 1rem;
-  padding: 3rem;
-  padding-left: 7rem;
+.about-text{
+  width:40%;
+  padding-left:4rem;
+}
+.about-image{
+  width:30%;
+  object-fit:contain;
 
 }
