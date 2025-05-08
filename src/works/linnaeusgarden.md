@@ -1,7 +1,7 @@
 ---
 title: Linnaeus's Garden
 layout: work-layout.njk
-description: "Experience time in bloom! This extension visualizes Linnaeus’s Flower Clock, showing flowers opening and closing based on the hour."
+description: "A web extension that visualizes Linnaeus’s Flower Clock, showing flowers opening and closing based on the hour."
 image: "/images/linnaeus.jpg"
 work_link: "https://chromewebstore.google.com/detail/floral-clock-a-living-tim/oajeecnpndhiijmpbhkjnalokjnokbkb"
 github_link: "https://github.com/rnedde/Linnaeus_Flower_Clock"

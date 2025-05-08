@@ -1,7 +1,7 @@
 ---
 title: Soft Send
 layout: work-layout.njk
-description: "“Soft Send” is a sculptural intervention in which a traditionally hard and abrasive climbing hold is given a plush, handmade crochet cover."
+description: "A sculptural intervention in which a traditionally hard and abrasive climbing hold is given a plush, handmade crochet cover."
 image: "/images/softsend.png"
 blog_link: "https://reverienedde.notion.site/Site-Specific-Installation-1c1a77ce693b8005ab92ca31a9da743c?pvs=4"
 work_link: "/"

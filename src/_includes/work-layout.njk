@@ -1,6 +1,10 @@
 {% extends "layout.njk" %}
 {% block content %}
-
+<div class="center-contents">
+    <div class="description">
+    <p class="short-description">{{ description }}</p>
+    </div>
+</div>
     <div class="work-detail">
 
         <!-- You can add any work-specific content here -->
@@ -9,7 +13,7 @@
         </div>
         <div class="center-contents">
             <div class ="description ">
-                <p class="short-description">{{ description }}</p>
+                
                 {{content | safe}}
                 {% if blog_link %}
                     <p>

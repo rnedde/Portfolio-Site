@@ -1,7 +1,7 @@
 ---
 title: Murmurine
 layout: work-layout.njk
-description: "Visitors are invited to send a message out to sea, and in return, receive a message left behind by a previous sender. "
+description: "Send a message out to sea, and in return, receive a message left behind by a previous sender. "
 image: "/images/murmurine.png"
 blog_link: "https://reverienedde.notion.site/Message-in-a-Bottle-1e5a77ce693b806a833fe46a9393756d?pvs=4"
 work_link: "https://murmurine.glitch.me"

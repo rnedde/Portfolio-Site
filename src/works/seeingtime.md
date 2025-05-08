@@ -1,7 +1,7 @@
 ---
 title: Seeing Time
 layout: work-layout.njk
-description: "Seeing Time is an interactive exploration of time-space synesthesia, inviting users to uncover their unique mental maps of time, visualize and share them, and challenge traditional perceptions of time."
+description: "Contribute to or explore a gallery of time-space synesthesia visualizations."
 image: "/images/seeingtime.png"
 blog_link: "https://reverienedde.notion.site/Time-Space-Synesthesia-Beginnings-143a77ce693b8027a932eecbae74d60a?pvs=4"
 work_link: "https://seeing-time.com"
