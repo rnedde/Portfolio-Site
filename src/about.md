@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about-layout.njk
+layout: layout.njk
 ---
 <div class="about-page">
         <div class="about-text">
@@ -12,3 +12,5 @@ layout: about-layout.njk
         </div>
         <img src="/images/reverie.jpg" class="about-image"alt="reverie image"/>
     </div>
+    </div>
+    <a class="resume-link" href="/resume">resume</a>
