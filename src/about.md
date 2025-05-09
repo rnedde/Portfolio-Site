@@ -13,4 +13,3 @@ layout: layout.njk
         <img src="/images/reverie.jpg" class="about-image"alt="reverie image"/>
     </div>
     </div>
-    <a class="resume-link" href="/resume">resume</a>
