@@ -201,6 +201,7 @@ footer {
 }
 .about-image{
   width:30%;
+  margin:7rem;
   object-fit:contain;
 }
 
