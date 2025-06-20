@@ -1,11 +1,19 @@
 ---
 title: Knitworks
 layout: work-layout.njk
-description: "An interactive installation that explores the intersection of fiber arts and network infrastructure."
+description: "A fiber arts-inspired installation that transforms messages into a shared tapestry of knits. "
 blog_link: "https://reverienedde.notion.site/knitworks?pvs=4"
-image: "/images/knitworks.gif"
+image: "/images/knitworks.jpeg"
 
 ---
 
- Using recycled Ethernet cables as both material and metaphor, the project draws parallels between knitting communities, decentralized networks, and underground mycelium systems. Knitworks challenges anthropocentric ideas of intelligence and communication, transforming discarded technologies into a living, luminous network of shared signals. Through iterative prototyping, the work bridges analog craft and digital logic to reveal unexpected connections.
+Four computers are on a local network connected by hand-knit ethernet cables. By using recycled ethernet cables, I repurpose e-waste, and remind us of the physical infrustracture of the internet. By creating an interconnected tangle of wires, a literal and metaphorical network of communication is brought to life.  
+
+Messages are translated to binary using ASCII encoding. They are then displayed on the central screen as knits and purls, the two basic atomic stitches in knitwear. This transformation reminds us of the close connection and shared history between fiber arts and computing. 
+
+
+
+
+
+
 
