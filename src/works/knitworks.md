@@ -1,7 +1,7 @@
 ---
 title: Knitworks
 layout: work-layout.njk
-description: "A fiber arts-inspired installation that transforms messages into a shared tapestry of knits. "
+description: "A fiber arts inspired installation that transforms messages into a shared tapestry of knits. "
 blog_link: "https://reverienedde.notion.site/knitworks?pvs=4"
 image: "/images/knitworks.jpeg"
 

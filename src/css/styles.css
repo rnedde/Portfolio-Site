@@ -30,13 +30,16 @@ body {
 
 /* backgrounds and border radius */
 
-main, header, .contact, footer {
+main, header, .contact, .info {
   background: radial-gradient(ellipse, #e5fefd 0%, #9ebeff 100%);
   margin: 1rem;
   padding: 3rem;
 }
-header {
+header, .info {
   border-radius: 17% 83% 23% 77% / 71% 26% 74% 29%;
+}
+.info{
+  padding:4rem;
 }
 main {
   border-radius: 88% 12% 71% 29% / 23% 53% 47% 77% ;
@@ -138,20 +141,19 @@ a:hover {
   padding-bottom: 3rem;
   display: flex;
   justify-content: space-around;
+  flex-direction:column;
+  align-items:center;
 }
-@media (max-width: 1300px) {
-  .contact-links {
-    flex-direction: column;
-    align-items: center; /* optional, centers stacked items */
-  }
+.contact-link{
+  padding:0.3rem;
+  text-align:center;
 }
 
 /* footer styles */
 footer {
-  border-radius: 80% 20% 77% 23% / 23% 49% 51% 77%;
-  line-height: 1rem;
-  padding: 3rem;
-  padding-left: 10rem;
+  display:flex;
+  flex-direction: row;
+
 }
 
 
