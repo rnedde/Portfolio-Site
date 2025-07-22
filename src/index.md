@@ -13,4 +13,5 @@ layout: layout.njk
     <div class="portfolio-link"><a href="/works/carmencarcass/">Carmen Carcass</a></div>
     <div class="portfolio-link"><a href="/works/softsend/">Soft Send</a></div>
     <div class="portfolio-link"><a href="/works/twoninety/">$2.90</a></div>
+    <div class="portfolio-link"><a href="/illustration/">Illustration</a></div>
 </div>
