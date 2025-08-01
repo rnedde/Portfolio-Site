@@ -5,19 +5,23 @@
     <title>Reverie - Illustration Portfolio</title>
     <link rel="stylesheet" href="/css/styles.css"/>
     <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://use.typekit.net/lat6qtz.css">
   </head>
   <body>
     <header>
 
       <h1>REVERIE NEDDE</h1>
-
-      <nav class="navbar">
+      <hr>
+          <nav class="navbar">
         <a href="/" class="nav-link works-link ">WORKS</a>
-        <a href="/about/" class="nav-link about-link ">ABOUT</a>
+        <a href="#about-section" class="nav-link about-link ">ABOUT</a>
         <a href="https://reverienedde.notion.site/documentation?pvs=4x" target="_blank" rel="noopener noreferrer" class="nav-link works-link ">BLOG↗</a>
       </nav>
 
     </header>
+
+
+
 
     <main>
       <h4 style="text-transform: uppercase;">Illustration Portfolio</h4>
@@ -63,9 +67,9 @@
 
         <p>© 2025 Reverie Nedde</p>
         <p>
-    This site was generated using
-    <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>
-    and is hosted on <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">Vercel</a>.
+    This site was hand coded using HTML, CSS, and JavaScript, generated using
+    <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>,
+    and hosted on <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">Vercel</a>.
     </p>
         <p>
     View this site's <a href="https://github.com/rnedde/Portfolio-Site" target="_blank" rel="noopener noreferrer">source code</a>.
@@ -81,18 +85,35 @@
         <h4>CONTACT</h4>
         <div class="contact-links">
           <a class="contact-link">rnedde at gmail dot com</a>
+
           <a class="contact-link"href="https://instagram.com/dejareverie" target="_blank" rel="noopener noreferrer">instagram</a>
           <a class="contact-link"href="https://www.linkedin.com/in/reverienedde/" target="_blank" rel="noopener noreferrer">linkedin</a>
           <a class="contact-link"href="https://github.com/rnedde" target="_blank" rel="noopener noreferrer">github</a>
           <a class="contact-link"href="https://www.are.na/re-ve/channels" target="_blank" rel="noopener noreferrer">are.na</a>
-
+          <a class="contact-link"href="https://reverienedde.notion.site/documentation?pvs=4x" target="_blank" rel="noopener noreferrer" class="nav-link works-link ">blog</a>
         </div>
       </div>
 
     </footer>
 
-    <div class="center-contents">
-      <div class="test"></div>
-    </div>
+    <script src="js/script.js"></script>
+<svg width="0" height="0" style="position: absolute">
+  <filter id="noise-filter">
+    <feTurbulence type="fractalNoise" baseFrequency="100" numOctaves="1" stitchTiles="stitch"></feTurbulence>
+    <feColorMatrix type="saturate" values="0"></feColorMatrix>
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="1.15"></feFuncR>
+      <feFuncG type="linear" slope="1.15"></feFuncG>
+      <feFuncB type="linear" slope="1.15"></feFuncB>
+      <feFuncA type="linear" slope="1"></feFuncA>
+    </feComponentTransfer>
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="3" intercept="-1.00"/>
+      <feFuncG type="linear" slope="3" intercept="-1.00"/>
+      <feFuncB type="linear" slope="3" intercept="-1.00"/>
+    </feComponentTransfer>
+  </filter>
+</svg>
+<div id="noise-overlay"></div>
   </body>
 </html>
