@@ -8,35 +8,35 @@ layout: /layouts/base.njk
 <img src="/assets/images/illustrations/abstract.jpg" class="illustration-image" alt="abstract image"/>
 <img src="/assets/images/illustrations/acadia.png" class="illustration-image illustration-portrait" alt="acadia image"/>
 <img src="/assets/images/illustrations/challengers.png" class="illustration-image" alt="challengers image"/>
-<img src="/assets/images/illustrations/shoulder.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
+<img src="/assets/images/illustrations/shoulder.jpg" class="illustration-image illustration-portrait" alt="a digital illustration of a woman looking over her shoulder"/>
 
-<img src="/assets/images/illustrations/chest_room.jpg" class="illustration-image" alt="abstract image"/>
+<img src="/assets/images/illustrations/chest_room.jpg" class="illustration-image" alt="an illustration of a room made to look like the inside of someone's chest, with ribs, a heart, and lungs."/>
 
-<img src="/assets/images/illustrations/desk.png" class="illustration-image" alt="abstract image"/>
-<img src="/assets/images/illustrations/eyes.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/scream.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/flash.png" class="illustration-image" alt="abstract image"/>
-<img src="/assets/images/illustrations/palm.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/gps.png" class="illustration-image" alt="abstract image"/>
+<img src="/assets/images/illustrations/desk.png" class="illustration-image" alt="an illustration of a girl sitting in front of a laptop holding a pencil."/>
+<img src="/assets/images/illustrations/eyes.jpg" class="illustration-image illustration-portrait" alt="a grid of digitally sketched eyes"/>
+<img src="/assets/images/illustrations/scream.jpg" class="illustration-image illustration-portrait" alt="an illustration of a woman facing left with her mouth open screaming."/>
+<img src="/assets/images/illustrations/flash.png" class="illustration-image" alt="a collection of doodles."/>
+<img src="/assets/images/illustrations/palm.jpg" class="illustration-image illustration-portrait" alt="a drawing of a woman with purple skin and hair with a green palm leaf background. "/>
+<img src="/assets/images/illustrations/gps.png" class="illustration-image" alt="a drawing of a heart-shaped gps screen which says recalculating"/>
 
 
-<img src="/assets/images/illustrations/green.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/hand_room.jpg" class="illustration-image" alt="abstract image"/>
-<img src="/assets/images/illustrations/hannah.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/head_room.jpg" class="illustration-image" alt="abstract image"/>
-<img src="/assets/images/illustrations/herb_garden.png" class="illustration-image" alt="abstract image"/>
-<img src="/assets/images/illustrations/leaves.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/knitwork_mockup.png" class="illustration-image" alt="abstract image"/>
+<img src="/assets/images/illustrations/green.jpg" class="illustration-image illustration-portrait" alt="an illustration of a woman with a blue background holding a plant. "/>
+<img src="/assets/images/illustrations/hand_room.jpg" class="illustration-image" alt="a drawing of a room with a hand sticking out of the wall. "/>
+<img src="/assets/images/illustrations/hannah.jpg" class="illustration-image illustration-portrait" alt="a drawing of a woman with a blue background and upward flowing hair. "/>
+<img src="/assets/images/illustrations/head_room.jpg" class="illustration-image" alt="a head-themed room with jars of eyes and tongues, and facial features on the walls. "/>
+<img src="/assets/images/illustrations/herb_garden.png" class="illustration-image" alt="an illustration of a door leading to an herb garden. "/>
+<img src="/assets/images/illustrations/leaves.jpg" class="illustration-image illustration-portrait" alt="a woman with pink skin and curly hair with a background with green leaves. "/>
+<img src="/assets/images/illustrations/knitwork_mockup.png" class="illustration-image" alt="a drawing of two people standing in a room with colorful lights connecting them."/>
 
 
 
 
 <img src="/assets/images/illustrations/scribble.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
 
-<img src="/assets/images/illustrations/skincare.png" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/stomach_room.jpg" class="illustration-image" alt="abstract image"/>
-<img src="/assets/images/illustrations/venus.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
-<img src="/assets/images/illustrations/lea.jpg" class="illustration-image illustration-portrait" alt="abstract image"/>
+<img src="/assets/images/illustrations/skincare.png" class="illustration-image illustration-portrait" alt="a collection of drawings of various skincare products. "/>
+<img src="/assets/images/illustrations/stomach_room.jpg" class="illustration-image" alt="a room with a stomach, liver, and intestines. "/>
+<img src="/assets/images/illustrations/venus.jpg" class="illustration-image illustration-portrait" alt="a drawing of venus, as a venus fly trap. "/>
+<img src="/assets/images/illustrations/lea.jpg" class="illustration-image illustration-portrait" alt="a drawing of a woman with a blue shirt and a black background looking right"/>
 
 </div>
 
