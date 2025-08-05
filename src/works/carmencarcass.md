@@ -1,8 +1,8 @@
 ---
 title: Carmen Carcass
-layout: work-layout.njk
+layout: layouts/work.njk
 description: "Explore rooms filled with original illustrations and thought-provoking commentary designed to enhance your understanding of the human body."
-image: "/images/carmencarcass.png"
+image: "/assets/images/carmencarcass.png"
 work_link: "https://rnedde.github.io/carmenCarcass"
 github_link: "https://github.com/rnedde/carmenCarcass"
 

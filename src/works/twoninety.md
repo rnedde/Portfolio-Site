@@ -1,8 +1,8 @@
 ---
 title: $2.90
-layout: work-layout.njk
+layout: layouts/work.njk
 description: "A daily practice of crocheting on the NYC subway."
-image: "/images/290.jpeg"
+image: "/assets/images/290.jpeg"
 blog_link: "https://reverienedde.notion.site/290?pvs=4"
 
 ---

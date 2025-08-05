@@ -1,8 +1,8 @@
 ---
 title: Lenticulight
-layout: work-layout.njk
+layout: layouts/work.njk
 description: "A simple paper craft pushed into the 4th dimension with the addition of addressable LEDs."
-image: "/images/lenticulight.gif"
+image: "/assets/images/lenticulight.gif"
 
 ---
 Is there a reason this hasn’t been done before?

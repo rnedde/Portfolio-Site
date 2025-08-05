@@ -1,8 +1,8 @@
 ---
 title: Parallax
-layout: work-layout.njk
+layout: layouts/work.njk
 description: "Transform 2D artwork into 3D scenes by using face tracking to simulate parallax and depth in real time."
-image: "/images/parallax.gif"
+image: "/assets/images/parallax.gif"
 blog_link: "https://reverienedde.notion.site/parallax?pvs=4"
 work_link: "https://rnedde.github.io/parallax/parallax_herb/parallax_herb.html"
 github_link: "https://github.com/rnedde/parallax"

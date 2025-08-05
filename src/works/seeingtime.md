@@ -1,8 +1,8 @@
 ---
 title: Seeing Time
-layout: work-layout.njk
+layout: layouts/work.njk
 description: "Contribute to or explore a gallery of time-space synesthesia visualizations."
-image: "/images/seeingtime.png"
+image: "/assets/images/seeingtime.png"
 blog_link: "https://reverienedde.notion.site/seeing-time?pvs=4"
 work_link: "https://seeing-time.com"
 github_link: "https://github.com/rnedde/seeing-time"

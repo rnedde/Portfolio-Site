@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Reverie - {{ title }}</title>
+
+    <link rel="stylesheet" href="/assets/styles.css"/>
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://use.typekit.net/lat6qtz.css">
+  </head>
+  <body>
+  {% include "partials/header.njk" %}
+
+
+    <main class="border-1">
+      <h4>{{ title }}</h4>
+      {% block content %}
+        <div class ="center-text center-contents">
+          {{content | safe}}
+        </div>
+      {% endblock %}
+    </main>
+
+      {% if page.url == '/' %}
+      {% include "partials/about-section.njk" %}
+      
+  {% endif %}
+
+  {% include "partials/footer.njk" %}
+    
+    <script src="/assets/p5.min.js"></script>
+    <script src="/assets/script.js"></script>
+    <script src="/assets/sparkle.js"></script>
+  </body>
+</html>

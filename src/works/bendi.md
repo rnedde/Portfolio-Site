@@ -1,8 +1,8 @@
 ---
 title: Bendi
-layout: work-layout.njk
+layout: layouts/work.njk
 description: "An interactive, illustrated, non-binary, web-based mobility coach."
-image: "/images/bendi.png"
+image: "/assets/images/bendi.png"
 blog_link: "https://reverienedde.notion.site/bendi?pvs=4"
 work_link: "https://rnedde.github.io/bendi"
 github_link: "https://github.com/rnedde/bendi"

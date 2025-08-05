@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8"/>
     <title>Reverie - Murmurine</title>
-    <link rel="stylesheet" href="/css/styles.css"/>
+
+    <link rel="stylesheet" href="/assets/styles.css"/>
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://use.typekit.net/lat6qtz.css">
   </head>
   <body>
-    <header>
+  <header class="border-1">
 
-      <h1>REVERIE NEDDE</h1>
-      <hr>
+      <h1>RevErie NEDde</h1>
           <nav class="navbar">
         <a href="/" class="nav-link works-link ">WORKS</a>
         <a href="#about-section" class="nav-link about-link ">ABOUT</a>
@@ -21,12 +21,8 @@
     </header>
 
 
-
-
-    <main>
-      <h4 style="text-transform: uppercase;">Murmurine</h4>
-
-      <!-- Default content block that can be overridden in specific pages -->
+    <main class="border-1">
+      <h4>Murmurine</h4>
       
     <div class="center-contents">
         <div class="description">
@@ -37,7 +33,7 @@
 
         <!-- You can add any work-specific content here -->
         <div class ="center-contents">
-            <img src="/images/murmurine.gif" class="work-image"alt="Murmurine image"/>
+            <img src="/assets/images/murmurine.gif" class="work-image border-1"alt="Murmurine image"/>
         </div>
         <div class="center-contents">
             <div class ="description ">
@@ -74,28 +70,29 @@
 
       
 
-    <footer class="center-contents">
+  <footer class="center-contents">
 
-      <div class="info">
+      <div class="info border-1">
 
-        <p>© 2025 Reverie Nedde</p>
+        <h4>RevErie NEDde 2025</h4>
         <p>
     This site was hand coded using HTML, CSS, and JavaScript, generated using
     <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>,
     and hosted on <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">Vercel</a>.
     </p>
         <p>
-    View this site's <a href="https://github.com/rnedde/Portfolio-Site" target="_blank" rel="noopener noreferrer">source code</a>.
-  </p>
-        <p>
     This page is <a href="https://jeffhuang.com/designed_to_last/" target="_blank" rel="noopener noreferrer">designed to last</a>.
   </p>
-        <p>
-    A link to my <a href="https://drive.google.com/file/d/1_kN1si7JuSVxMy_-x4GZ0_rNv9CMg8Qx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">resume</a>.
+  <p>
+    The header font was created using a trackpad and a tool called <a href="https://github.com/ButTaiwan/writemyfont?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">writemyfont</a> developed by ButTaiwan.
+  </p>
+  <p>
+    This site
+  
   </p>
       </div>
-      <div class="contact">
-        <h4>CONTACT</h4>
+      <div class="contact border-2">
+        <h4>CONTAct</h4>
         <div class="contact-links">
           <a class="contact-link">rnedde at gmail dot com</a>
 
@@ -108,25 +105,9 @@
       </div>
 
     </footer>
-
-    <script src="js/script.js"></script>
-<svg width="0" height="0" style="position: absolute">
-  <filter id="noise-filter">
-    <feTurbulence type="fractalNoise" baseFrequency="100" numOctaves="1" stitchTiles="stitch"></feTurbulence>
-    <feColorMatrix type="saturate" values="0"></feColorMatrix>
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="1.15"></feFuncR>
-      <feFuncG type="linear" slope="1.15"></feFuncG>
-      <feFuncB type="linear" slope="1.15"></feFuncB>
-      <feFuncA type="linear" slope="1"></feFuncA>
-    </feComponentTransfer>
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="3" intercept="-1.00"/>
-      <feFuncG type="linear" slope="3" intercept="-1.00"/>
-      <feFuncB type="linear" slope="3" intercept="-1.00"/>
-    </feComponentTransfer>
-  </filter>
-</svg>
-<div id="noise-overlay"></div>
+    
+    <script src="/assets/p5.min.js"></script>
+    <script src="/assets/script.js"></script>
+    <script src="/assets/sparkle.js"></script>
   </body>
 </html>

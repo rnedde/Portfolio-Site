@@ -1,11 +1,7 @@
 module.exports = function(eleventyConfig) {
-  // Copy CSS folder to dist
-  eleventyConfig.addPassthroughCopy("src/css");
+  // Passthrough copy
+  eleventyConfig.addPassthroughCopy("src/assets");
 
-  // Add a passthrough copy for images
-  eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy("src/files");
-  eleventyConfig.addPassthroughCopy("src/js");
   return {
     dir: {
       input: "src",

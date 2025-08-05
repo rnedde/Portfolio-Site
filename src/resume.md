@@ -1,6 +1,6 @@
 ---
 title: RESUME
-layout: resume-layout.njk
+layout: layouts/resume.njk
 ---
 
 New York, New York  
