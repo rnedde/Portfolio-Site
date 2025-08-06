@@ -32,7 +32,6 @@ p, a{
 }
 h1, h4{
   font-family: 'trackpad', sans-serif;
-  /* text-transform:lowercase */
 }
 body {
   font-family: olimpico, sans-serif;
@@ -231,6 +230,7 @@ footer {
   overflow: hidden;
   object-fit: cover;
   object-position: top;
+  padding:1rem;
 }
 
 .short-description {
@@ -338,4 +338,9 @@ canvas {
   left: 0;
   z-index: 1000;
   pointer-events: none; /* allows clicking through */
+}
+.images-container{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
 }
