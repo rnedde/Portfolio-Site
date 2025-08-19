@@ -65,7 +65,6 @@ header,
   padding: var(--space-sm);
 }
 
-
 /* Unique border-radius shapes */
 .border-1{
   border-radius: 17% 83% 23% 77% / 71% 26% 74% 29%;
@@ -85,7 +84,7 @@ header,
 header{
   padding: var(--space-sm);
 }
-.info, .contact{
+.info{
   padding:var(--space-lg);
 }
 main{
@@ -121,6 +120,8 @@ h4 {
 .center-contents {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;                /* lets them move to new line if too small */
+
 }
 
 .center-text {
@@ -195,9 +196,9 @@ a:hover {
 }
 
 /* Contact section */
-/* .contact{
+.contact{
   padding-top:var(--space-md);
-} */
+}
 .contact-links {
   padding: 0 5rem 3rem;
   display: flex;
@@ -211,11 +212,6 @@ a:hover {
   text-align: center;
 }
 
-/* Footer */
-footer {
-  display: flex;
-  flex-direction: column;
-}
 
 /* Portfolio */
 .portfolio-list {
@@ -336,4 +332,11 @@ canvas {
   display:flex;
   flex-direction: column;
   align-items:center;
+}
+
+.footer-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap
 }
