@@ -57,8 +57,7 @@ main,
 header,
 .contact,
 .info,
-.about-container,
-.webrings-container
+.about-container
 {
   /* Copy the styles you want from .container here */
   background: radial-gradient(ellipse, var(--content-color) 0%, #9ebeff 100%);
@@ -86,11 +85,10 @@ header,
 header{
   padding: var(--space-sm);
 }
-.info, .webrings-container, .contact{
+.info, .contact{
   padding:var(--space-lg);
-
 }
-main {
+main{
   padding-top: var(--space-md);
   padding-bottom: var(--space-md);
 }
