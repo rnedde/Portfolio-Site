@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  
     <meta charset="UTF-8"/>
     <title>Reverie - {{ title }}</title>
 
@@ -22,14 +23,14 @@
     </main>
 
       {% if page.url == '/' %}
-      {% include "partials/about-section.njk" %}
+        {% include "partials/about-section.njk" %}
       
-  {% endif %}
+      {% endif %}
 
   {% include "partials/footer.njk" %}
     
     <script src="/assets/p5.min.js"></script>
-    <script src="/assets/script.js"></script>
+    <script src="/assets/mousehover.js"></script>
     <script src="/assets/sparkle.js"></script>
   </body>
 </html>

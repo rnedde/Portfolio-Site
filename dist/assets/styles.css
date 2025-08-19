@@ -16,8 +16,14 @@
 }
 
 @font-face {
-  font-family: 'trackpad';
-  src: url('../assets/fonts/trackpad.otf') format('opentype');
+  font-family: 'header';
+  src: url('../assets/fonts/hair1.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'body';
+  src: url('../assets/fonts/revfont.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,13 +34,13 @@ html {
 }
 
 p, a{
-  font-size:1.2rem;
+  font-size:1.5rem;
 }
 h1, h4{
-  font-family: 'trackpad', sans-serif;
+  font-family: 'header', sans-serif;
 }
 body {
-  font-family: olimpico, sans-serif;
+  font-family: "body", sans-serif;
   font-size: 1rem; /* more standard base size */
   background: radial-gradient(ellipse, hsl(227, 100%, 72%) 0%, var(--content-color) 100%);
   color: var(--text-color);
@@ -51,14 +57,14 @@ main,
 header,
 .contact,
 .info,
-.about-container {
+.about-container,
+.webrings-container
+{
   /* Copy the styles you want from .container here */
   background: radial-gradient(ellipse, var(--content-color) 0%, #9ebeff 100%);
   margin: var(--space-sm);
   padding: var(--space-sm);
 }
-
-
 
 
 /* Unique border-radius shapes */
@@ -80,21 +86,23 @@ header,
 header{
   padding: var(--space-sm);
 }
-.info{
-  padding:var(--space-md);
+.info, .webrings-container, .contact{
+  padding:var(--space-lg);
+
 }
 main {
   padding-top: var(--space-md);
   padding-bottom: var(--space-md);
 }
 
-.about-container {
+.about-container{
   padding: var(--space-lg);
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
 }
+
 
 /* Headings */
 h1 {
@@ -189,9 +197,9 @@ a:hover {
 }
 
 /* Contact section */
-.contact{
+/* .contact{
   padding-top:var(--space-md);
-}
+} */
 .contact-links {
   padding: 0 5rem 3rem;
   display: flex;
@@ -208,7 +216,7 @@ a:hover {
 /* Footer */
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /* Portfolio */
@@ -316,19 +324,6 @@ footer {
   grid-row: span 2;
 }
 
-/* Noise overlay */
-#noise-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 9999;
-  filter: url(#noise-filter);
-  mix-blend-mode: multiply;
-  opacity: 0.9;
-}
 body {
   background-color: var(--accent-color);
 }

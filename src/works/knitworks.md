@@ -6,10 +6,15 @@ blog_link: "https://reverienedde.notion.site/knitworks?pvs=4"
 image: "/assets/images/knitworks.jpeg"
 
 ---
+Knitworks is an interactive installation that invites users to submit messages to a live chatroom. Each message is converted into binary code and translated into a visual sequence of knits and purls, the two fundamental building blocks of any knitted fabric.
 
-Four computers are on a local network connected by hand-knit ethernet cables. By using recycled ethernet cables, I repurpose e-waste, and remind us of the physical infrustracture of the internet. By creating an interconnected tangle of wires, a literal and metaphorical network of communication is brought to life.  
+The system consists of four computers and a display, all communicating over a local network connected by deconstructed, hand-knitted, yet fully functional Ethernet cables.
 
-Messages are translated to binary using ASCII encoding. They are then displayed on the central screen as knits and purls, the two basic atomic stitches in knitwear. This transformation reminds us of the close connection and shared history between fiber arts and computing. 
+This piece highlights the deep and often overlooked connections between fiber arts and computer science, from their shared origins in punch card systems to the DIY ethos of decentralized networks and maker communities.
+
+By drawing a parallel between code and knitting, Knitworks explores how messages and meaning can be embedded in fabric just as they are in software, both constructed from simple binary elements: ones and zeroes, or knits and purls.
+
+Presented at the NYU IMA Low Res 2025 Thesis Show, Shanghai, China.
 
 <div class="images-container">
 
