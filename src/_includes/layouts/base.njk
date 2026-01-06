@@ -10,29 +10,20 @@
   </head>
   <body>
 
-    {% include "partials/header.njk" %}
-    <main class="columns">
-      <div class="border-1">
-        <h3>Works</h3>
-        <div class="index">
-          {% include "partials/index.njk" %}
-        </div>
-        <h4>{{ title }}</h4>
+    <div class="two-column-layout">
+      {% include "partials/sidebar.njk" %}
+
+      <main class="main-content border-1">
+        <h3>{{ title }}</h3>
         {% block content %}
-          <div class ="work-links center-text center-contents">
-            {{content | safe}}
-          </div>
+          {{ content | safe }}
         {% endblock %}
       </main>
+    </div>
 
-      {% if page.url == '/' %}
-        {% include "partials/about-section.njk" %}
+    {% include "partials/footer.njk" %}
 
-      {% endif %}
-
-      {% include "partials/footer.njk" %}
-
-      <script src="/assets/p5.min.js"></script>
+    <script src="/assets/p5.min.js"></script>
       <script src="/assets/mousehover.js"></script>
       <script src="/assets/sparkle.js"></script>
       <script src="/assets/gradients.js"></script>
