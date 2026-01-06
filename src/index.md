@@ -1,5 +1,5 @@
 ---
-title: Recent Works
+title: Works
 layout: layouts/base.njk
 ---
 <div class="portfolio-list">
@@ -13,6 +13,5 @@ layout: layouts/base.njk
     <div id="carcass" class="portfolio-link"><a href="/works/carmencarcass/">Carmen Carcass</a></div>
     <div id="send" class="portfolio-link"><a href="/works/softsend/">Soft Send</a></div>
     <div id="twoninety" class="portfolio-link"><a href="/works/twoninety/">$2.90</a></div>
-    <!-- <div id="illustration" class="portfolio-link"><a href="/works/illustration/">Illustration</a></div> -->
     <div id="makingitvisible" class="portfolio-link"><a href="/works/makingitvisible/">Making it Visible</a></div>
 </div>

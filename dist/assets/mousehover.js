@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "carcass",
         "send",
         "twoninety",
-        "illustration", 
-        "makingitvisible", 
+        "illustration",
+        "makingitvisible",
         "bendi"
     ];
 
@@ -26,36 +26,23 @@ document.addEventListener("DOMContentLoaded", function () {
     img.style.position = "absolute";
     img.style.top = "50%";
     img.style.left = "50%";
-    img.style.transform = "translate(-50%, -50%)";
+
+    // INITIAL STATE (hidden)
+    img.style.opacity = "0";
+    img.style.transform = "translate(-50%, -48%) scale(0.97)";
+
     img.style.width = "80%";
     img.style.height = "80%";
     img.style.objectFit = "cover";
-    img.style.opacity = "0";
-    img.style.transition = "opacity 0.3s ease";
     img.style.pointerEvents = "none";
     img.style.zIndex = "10";
     img.style.mixBlendMode = "multiply";
-    img.style.borderRadius = "59% 41% 70% 30% / 71% 66% 34% 29%";
+    img.style.borderRadius = "1rem";
 
-//     /* Keyword values */
-// mix-blend-mode: normal;
-// mix-blend-mode: multiply;
-// mix-blend-mode: screen;
-// mix-blend-mode: overlay;
-// mix-blend-mode: darken;
-// mix-blend-mode: lighten;
-// mix-blend-mode: color-dodge;
-// mix-blend-mode: color-burn;
-// mix-blend-mode: hard-light;
-// mix-blend-mode: soft-light;
-// mix-blend-mode: difference;
-// mix-blend-mode: exclusion;
-// mix-blend-mode: hue;
-// mix-blend-mode: saturation;
-// mix-blend-mode: color;
-// mix-blend-mode: luminosity;
-// mix-blend-mode: plus-darker;
-// mix-blend-mode: plus-lighter;
+    img.style.transition = `
+  opacity 0.5s ease,
+  transform 0.8s cubic-bezier(.16,1,.3,1)
+`;
     main.appendChild(img);
 
     works.forEach(workId => {
@@ -67,10 +54,13 @@ document.addEventListener("DOMContentLoaded", function () {
         elem.addEventListener("mouseenter", () => {
             img.src = `assets/images/cover_images/${workId}.jpeg`;
             img.style.opacity = "1";
+            img.style.transform = "translate(-50%, -50%) scale(1)";
         });
 
         elem.addEventListener("mouseleave", () => {
             img.style.opacity = "0";
+                  img.style.transform = "translate(-50%, -48%) scale(0.97)";
+
         });
     });
 
