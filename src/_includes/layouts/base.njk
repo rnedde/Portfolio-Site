@@ -4,34 +4,37 @@
 
     <meta charset="UTF-8"/>
     <title>Reverie - {{ title }}</title>
-
     <link rel="stylesheet" href="/assets/styles.css"/>
     <link rel="icon" href="/images/favicon.png" type="image/png">
+
   </head>
   <body>
 
-
-  {% include "partials/header.njk" %}
-
-    <main class="border-1">
-      <h4>{{ title }}</h4>
-      {% block content %}
-        <div class ="work-links center-text center-contents">
-          {{content | safe}}
+    {% include "partials/header.njk" %}
+    <main class="columns">
+      <div class="border-1">
+        <h3>Works</h3>
+        <div class="index">
+          {% include "partials/index.njk" %}
         </div>
-      {% endblock %}
-    </main>
+        <h4>{{ title }}</h4>
+        {% block content %}
+          <div class ="work-links center-text center-contents">
+            {{content | safe}}
+          </div>
+        {% endblock %}
+      </main>
 
       {% if page.url == '/' %}
         {% include "partials/about-section.njk" %}
-      
+
       {% endif %}
 
-  {% include "partials/footer.njk" %}
-    
-    <script src="/assets/p5.min.js"></script>
-    <script src="/assets/mousehover.js"></script>
-    <script src="/assets/sparkle.js"></script>
-    <script src="/assets/gradients.js"></script>
-  </body>
-</html>
+      {% include "partials/footer.njk" %}
+
+      <script src="/assets/p5.min.js"></script>
+      <script src="/assets/mousehover.js"></script>
+      <script src="/assets/sparkle.js"></script>
+      <script src="/assets/gradients.js"></script>
+    </body>
+  </html>
