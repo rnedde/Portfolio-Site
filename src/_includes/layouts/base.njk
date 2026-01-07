@@ -14,7 +14,7 @@
       {% include "partials/sidebar.njk" %}
 
       <main class="main-content border-1">
-        <h3>{{ title }}</h3>
+        <h2>{{ title }}</h2>
         {% block content %}
           {{ content | safe }}
         {% endblock %}
@@ -23,9 +23,10 @@
 
     {% include "partials/footer.njk" %}
 
+    <script src="/assets/router.js"></script>
     <script src="/assets/p5.min.js"></script>
-      <script src="/assets/mousehover.js"></script>
-      <script src="/assets/sparkle.js"></script>
-      <script src="/assets/gradients.js"></script>
-    </body>
+    <script src="/assets/mousehover.js"></script>
+    <script src="/assets/sparkle.js"></script>
+    <script src="/assets/gradients.js"></script>
+  </body>
   </html>

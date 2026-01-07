@@ -1,12 +1,12 @@
-<aside class="sidebar border-1">
+<aside class="sidebar">
   <!-- Site title/name -->
-  <div class="sidebar-section sidebar-header">
-    <h1><a href="/">Reverie Nedde</a></h1>
+  <div class="sidebar-section sidebar-header border-1">
+    <a href="/"><h1>Reverie Nedde</h1></a>
   </div>
 
   <!-- Works list section -->
-  <div class="sidebar-section works-index">
-    <h3>Works</h3>
+  <div class="sidebar-section works-index border-1">
+    <a href="/"><h2>Works</h2></a>
     <ul class="works-list">
       {% for work in collections.works %}
         <li class="{% if page.url == work.url %}active{% endif %}">
@@ -17,12 +17,12 @@
   </div>
 
   <!-- About link section -->
-  <div class="sidebar-section">
-    <h3><a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a></h3>
+  <div class="sidebar-section border-1">
+    <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}"><h2>About</h2></a>
   </div>
 
   <!-- Contact link section -->
-  <div class="sidebar-section">
-    <h3><a href="/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a></h3>
+  <div class="sidebar-section border-1">
+    <a href="/contact/" class="{% if page.url == '/contact/' %}active{% endif %}"><h2>Contact</h2></a>
   </div>
 </aside>
