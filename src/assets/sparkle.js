@@ -64,7 +64,7 @@
 
         this.display = function () {
           p.noStroke();
-          p.fill(194, 135, 245, this.opacity);
+          p.fill(255, 255, 207, this.opacity);
           p.text(this.sparkleChar, this.x + this.randX, this.y + this.randY);
         };
 

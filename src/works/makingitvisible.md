@@ -9,7 +9,7 @@ This series of sketches are inspired by observations of the various trichome phe
 
 Trichomes are the tiny, almost invisible hairs that some plants use to sense the world, protect themselves, taste delicious, or get you high. 
 
-The sketches are linked below, each with a microscopic image that inspired it. 
+The sketches are linked below, each paired with a microscope image that inspired it. 
 
 
 [Number 1](https://rnedde.github.io/makingitvisible/trichome1.html)

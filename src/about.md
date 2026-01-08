@@ -11,6 +11,6 @@ layout: layouts/base.njk
       <p>My work focuses on creating unexpected connections across mediums and finding new ways to share them.</p>
       <p>I am currently based in New York City, and open to new opportunities, collaborations, and connections.</p>
     </div>
-    <img src="/assets/images/reverie.jpg" class="about-image border-1" alt="Reverie Nedde" />
+    <img src="/assets/images/reverie.jpg" class="about-image img-border" alt="Reverie Nedde" />
   </div>
 </div>
