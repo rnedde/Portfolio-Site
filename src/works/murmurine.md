@@ -1,11 +1,12 @@
 ---
 title: Murmurine
+date: 2025-05-01
 layout: layouts/work.njk
 description: "Send a message out to sea, and in return, receive a message left behind by a previous sender. "
 image: "/assets/images/murmurine.gif"
 blog_link: "https://reverienedde.notion.site/murmurine?pvs=4"
-work_link: "https://murmurine.glitch.me"
-github_link: "https://github.com/rnedde/Message-in-a-bottle"
+# work_link: "https://murmurine.glitch.me"
+# github_link: "https://github.com/rnedde/Message-in-a-bottle"
 
 ---
 

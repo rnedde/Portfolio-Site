@@ -1,11 +1,12 @@
 ---
 title: Seeing Time
+date: 2024-10-01
 layout: layouts/work.njk
 description: "Contribute to or explore a gallery of time-space synesthesia visualizations."
 image: "/assets/images/seeingtime.jpeg"
 blog_link: "https://reverienedde.notion.site/seeing-time?pvs=4"
-work_link: "https://seeing-time.com"
-github_link: "https://github.com/rnedde/seeing-time"
+# work_link: "https://seeing-time.com"
+# github_link: "https://github.com/rnedde/seeing-time"
 
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: Knitworks
+date: 2025-06-01
 layout: layouts/work.njk
 description: "A fiber arts inspired installation that transforms messages into a shared tapestry of knits. "
-blog_link: "https://reverienedde.notion.site/knitworks?pvs=4"
+# blog_link: "https://reverienedde.notion.site/knitworks?pvs=4"
 image: "/assets/images/knitworks/knitworks.jpeg"
 
 ---

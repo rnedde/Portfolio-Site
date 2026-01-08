@@ -1,5 +1,6 @@
 ---
 title: Lenticulight
+date: 2023-05-01
 layout: layouts/work.njk
 description: "A simple paper craft pushed into the 4th dimension with the addition of addressable LEDs."
 image: "/assets/images/lenticulight.gif"

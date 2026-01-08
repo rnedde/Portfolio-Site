@@ -1,5 +1,6 @@
 ---
 title: $2.90
+date: 2024-09-01
 layout: layouts/work.njk
 description: "A daily practice of crocheting on the NYC subway."
 image: "/assets/images/290.jpeg"

@@ -79,7 +79,7 @@ body {
 /* Highlight color */
 ::selection {
   background-color: var(--accent-color);
-  color: var(--content-color);
+  color: var(--glow-color1);
 }
 
 .about-container {
@@ -115,7 +115,7 @@ body {
 
 /* Headings */
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-align: center;
 }
 
@@ -282,7 +282,7 @@ a:hover {
 }
 
 .sidebar h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   text-align: left;
   margin: 0;
 }
@@ -447,9 +447,18 @@ a:hover {
 
 /* Main content area */
 .main-content {
-  background: radial-gradient(ellipse at top right,
+  background:
+    radial-gradient(ellipse at 80% 20%,
       var(--content-color) 0%,
-      var(--base-color) 60%, transparent);
+      var(--base-color) 30%,
+      transparent 60%),
+    radial-gradient(ellipse at 20% 80%,
+      var(--base-color) 0%,
+      var(--content-color) 30%,
+      transparent 60%);
+  background-attachment: local;
+  background-size: 100% 300%;
+  background-position: 0% 0%;
   padding: var(--space-md);
   padding-top: var(--space-lg);
   padding-bottom: var(--space-lg);
@@ -517,7 +526,7 @@ a:hover {
   flex-direction: column;
   gap: 0.5rem;
   margin-top: var(--space-md);
-  align-items: center;
+  align-items: left;
 }
 
 .contact-content .contact-link {

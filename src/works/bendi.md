@@ -1,11 +1,12 @@
 ---
 title: Bendi
+date: 2024-10-01
 layout: layouts/work.njk
 description: "An interactive, illustrated, non-binary, web-based mobility coach."
 image: "/assets/images/bendi.png"
-blog_link: "https://reverienedde.notion.site/bendi?pvs=4"
+# blog_link: "https://reverienedde.notion.site/bendi?pvs=4"
 work_link: "https://rnedde.github.io/bendi"
-github_link: "https://github.com/rnedde/bendi"
+# github_link: "https://github.com/rnedde/bendi"
 
 ---
 

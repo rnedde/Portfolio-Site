@@ -1,5 +1,6 @@
 ---
 title: Making it Visible
+date: 2023-03-01
 layout: layouts/work.njk
 description: "A collection of p5 canvases that create generative representations of trichomes, the tiny hairs on plants. "
 image: "/assets/images/makingitvisible.jpeg"
