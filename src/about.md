@@ -1,6 +1,6 @@
 ---
 title: About
-layout: layouts/base.njk
+layout: layouts/about.njk
 ---
 
 <div class="about-content">

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8"/>
+    <title>Reverie - {{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles.css"/>
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+  </head>
+  <body>
+
+    <div class="two-column-layout">
+      {% include "partials/sidebar.njk" %}
+
+      <div class="main-column">
+        <main class="main-content border-1">
+          <h2>{{ title }}</h2>
+          {{ content | safe }}
+        </main>
+
+        <footer class="about-footer border-1">
+          <p>
+            Made with <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a>,
+            hosted on <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">Vercel</a>.
+            This site was <a href="https://jeffhuang.com/designed_to_last/" target="_blank" rel="noopener noreferrer">Designed to last</a>.
+          </p>
+          <p>
+            Fonts: <a href="https://haskoy.ertekinn.com/?ref=uncut.wtf" target="_blank" rel="noopener noreferrer">Haskoy</a>,
+            <a href="https://uncut.wtf/display/phosphene/" target="_blank" rel="noopener noreferrer">Phosphène</a>.
+          </p>
+          <p>
+            <a href="https://themarkup.org/blacklight?url=reverienedde.com&device=mobile&location=us-ca&force=false" target="_blank">No data collection.</a>
+          </p>
+          <p class="copyright">© Reverie Nedde 2026</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="/assets/router.js"></script>
+    <script src="/assets/p5.min.js"></script>
+    <script src="/assets/mousehover.js"></script>
+    <script src="/assets/sparkle.js"></script>
+    <script src="/assets/gradients.js"></script>
+  </body>
+</html>

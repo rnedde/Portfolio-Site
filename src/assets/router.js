@@ -45,46 +45,57 @@ class Router {
   }
 
   async loadContent(path, shouldAnimate = true) {
-    const mainContent = document.querySelector('.main-content');
-    if (!mainContent) return;
+    const layout = document.querySelector('.two-column-layout');
+    if (!layout) return;
+
+    // Get the right column (either .main-column or .main-content)
+    const currentRightCol = layout.querySelector('.main-column') || layout.querySelector('.main-content');
+    if (!currentRightCol) return;
 
     try {
       // Slide out current content
       if (shouldAnimate) {
-        mainContent.classList.add('slide-out');
-        await this.wait(300);
+        const mainContent = currentRightCol.classList.contains('main-content')
+          ? currentRightCol
+          : currentRightCol.querySelector('.main-content');
+        if (mainContent) {
+          mainContent.classList.add('slide-out');
+          await this.wait(300);
+        }
       }
 
       // Get content (from cache or fetch)
       const html = await this.fetchPage(path);
 
-      // Extract main content from fetched page
+      // Extract right column from fetched page
       const parser = new DOMParser();
       const doc = parser.parseFromString(html, 'text/html');
-      const newContent = doc.querySelector('.main-content');
+      const newLayout = doc.querySelector('.two-column-layout');
+      const newRightCol = newLayout.querySelector('.main-column') || newLayout.querySelector('.main-content');
 
-      if (newContent) {
-        // Update content
-        mainContent.innerHTML = newContent.innerHTML;
+      if (newRightCol) {
+        // Replace the entire right column
+        currentRightCol.replaceWith(newRightCol.cloneNode(true));
 
         // Update active states in sidebar
         this.updateActiveStates(path);
 
         // Slide in new content
         if (shouldAnimate) {
-          mainContent.classList.remove('slide-out');
-          mainContent.classList.add('slide-in');
-
-          await this.wait(10);
-          mainContent.classList.add('slide-in-active');
-
-          await this.wait(500);
-          mainContent.classList.remove('slide-in', 'slide-in-active');
+          const newMainContent = layout.querySelector('.main-content');
+          if (newMainContent) {
+            newMainContent.classList.add('slide-in');
+            await this.wait(10);
+            newMainContent.classList.add('slide-in-active');
+            await this.wait(500);
+            newMainContent.classList.remove('slide-in', 'slide-in-active');
+          }
         }
       }
 
       // Scroll to top
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      const scrollTarget = layout.querySelector('.main-column') || layout.querySelector('.main-content');
+      if (scrollTarget) scrollTarget.scrollTop = 0;
 
     } catch (error) {
       console.error('Navigation error:', error);
