@@ -5,6 +5,7 @@ layout: layouts/work.njk
 description: "A daily practice of crocheting on the NYC subway."
 image: "/assets/images/290.jpeg"
 blog_link: "https://reverienedde.notion.site/290?pvs=4"
+tech_stack: ""
 
 ---
 

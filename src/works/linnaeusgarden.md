@@ -7,6 +7,7 @@ image: "/assets/images/linnaeus.jpg"
 # blog_link: "https://reverienedde.notion.site/floral-clocks?pvs=4"
 work_link: "https://chromewebstore.google.com/detail/floral-clock-a-living-tim/oajeecnpndhiijmpbhkjnalokjnokbkb"
 # github_link: "https://github.com/rnedde/Linnaeus_Flower_Clock"
+tech_stack: "p5.js web extension"
 
 ---
 

@@ -7,6 +7,7 @@ image: "/assets/images/softsend.jpeg"
 blog_link: "https://reverienedde.notion.site/soft-send?pvs=4"
 # work_link: "/"
 # github_link: "/"
+tech_stack: ""
 
 ---
 

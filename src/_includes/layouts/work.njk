@@ -9,6 +9,10 @@
     <div class="work-detail center-contents">
         <img src="{{ image }}" class="work-image img-border" alt="{{ title }} image" />
 
+        {% if tech_stack %}
+        <p class="tech-stack">{{ tech_stack }}</p>
+        {% endif %}
+
         <div class="description">
             {{ content | safe }}
 

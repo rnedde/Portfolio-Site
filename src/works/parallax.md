@@ -7,6 +7,7 @@ image: "/assets/images/parallax.gif"
 blog_link: "https://reverienedde.notion.site/parallax?pvs=4"
 work_link: "https://rnedde.github.io/parallax/parallax_herb/parallax_herb.html"
 # github_link: "https://github.com/rnedde/parallax"
+tech_stack: "An experiment in simulating depth using p5.js vectors"
 
 ---
 

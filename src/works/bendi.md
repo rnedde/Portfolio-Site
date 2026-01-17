@@ -7,6 +7,7 @@ image: "/assets/images/bendi.png"
 # blog_link: "https://reverienedde.notion.site/bendi?pvs=4"
 work_link: "https://rnedde.github.io/bendi"
 # github_link: "https://github.com/rnedde/bendi"
+tech_stack: ""
 
 ---
 
@@ -15,5 +16,7 @@ This interactive web application is designed to help users explore stretches for
 By clicking on different parts of Bendi’s body, users are shown a targeted stretch along with instructions and a countdown timer. 
 
 This tool turns anatomical exploration into a friendly, engaging experience.
+
+<img src="/assets/images/bendi-process.webp" class="work-image">
 
 

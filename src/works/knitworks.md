@@ -5,6 +5,7 @@ layout: layouts/work.njk
 description: "A fiber arts inspired installation that transforms messages into a shared tapestry of knits. "
 # blog_link: "https://reverienedde.notion.site/knitworks?pvs=4"
 image: "/assets/images/knitworks/knitworks.jpeg"
+tech_stack: "  Full-stack web app built with Node.js/Express and Socket.IO for real-time multi-user interaction, with custom SVG graphics and CSS animations."
 
 ---
 
@@ -17,6 +18,8 @@ This piece highlights the deep and often overlooked connections between fiber ar
 By drawing a parallel between code and knitting, Knitworks explores how messages and meaning can be embedded in fabric just as they are in software, both constructed from simple binary elements: ones and zeroes, or knits and purls.
 
 Presented at the NYU IMA Low Res 2025 Thesis Show, Shanghai, China.
+
+<a href="https://itp.nyu.edu/lowres/thesisarchive2025/?reverie-nedde" target="_blank">THESIS ARCHIVE</a>
 
 <div class="images-container">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/1116194469?h=382faf8774" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
