@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Reverie - {{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles.css"/>
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+  </head>
+  <body>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+      <a href="/" class="mobile-nav-section mobile-nav-title"><h1>Reverie Nedde</h1></a>
+      <div class="mobile-works-dropdown">
+        <button class="mobile-nav-section mobile-works-toggle" aria-expanded="false">Works</button>
+        <ul class="mobile-works-list">
+          {% for work in collections.works | reverse %}
+            <li class="{% if page.url == work.url %}active{% endif %}">
+              <a href="{{ work.url }}">{{ work.data.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <a href="/about/" class="mobile-nav-section mobile-nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
+      <a href="/contact/" class="mobile-nav-section mobile-nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+    </nav>
+
+    <div class="two-column-layout">
+      {% include "partials/sidebar.njk" %}
+
+      <main class="main-content border-1">
+        <h2>Works</h2>
+        <div class="gallery">
+          {% for work in collections.works | reverse %}
+            <a href="{{ work.url }}" class="gallery-item">
+              <img src="{{ work.data.image }}" alt="{{ work.data.title }}" class="gallery-thumbnail" />
+              <span class="gallery-title">{{ work.data.title }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </main>
+    </div>
+
+    <script src="/assets/router.js"></script>
+    <script src="/assets/mobile-nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="/assets/mousehover.js"></script>
+    <script src="/assets/sparkle.js"></script>
+    <script src="/assets/gradients.js"></script>
+  </body>
+</html>

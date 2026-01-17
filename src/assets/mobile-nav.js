@@ -9,15 +9,15 @@ function initMobileNav() {
   const newToggle = toggle.cloneNode(true);
   toggle.parentNode.replaceChild(newToggle, toggle);
 
-  // Toggle dropdown on click
+  // Toggle dropdown on click, navigate to gallery on second tap
   newToggle.addEventListener('click', (e) => {
     e.preventDefault();
     e.stopPropagation();
     const isOpen = dropdown.classList.contains('open');
 
     if (isOpen) {
-      dropdown.classList.remove('open');
-      newToggle.setAttribute('aria-expanded', 'false');
+      // Second tap: navigate to gallery
+      window.location.href = '/';
     } else {
       dropdown.classList.add('open');
       newToggle.setAttribute('aria-expanded', 'true');
